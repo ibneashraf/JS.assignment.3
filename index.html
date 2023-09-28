@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor Counter</title>
+</head>
+<body>
+    
+    <script>
+        //Task 1
+        var age = "I am 20 years old"
+        alert(age)
+
+        //Task 2
+        let visitCount = localStorage.getItem('visitCount');
+
+        // If it doesn't exist, initialize it to 0
+       if (visitCount === null) {
+            visitCount = 0;
+        }
+        // Increment the visit count
+        visitCount++;
+        // Store the updated visit count in localStorage
+        localStorage.setItem('visitCount', visitCount);
+        alert(`I have visited this site ${visitCount} times.`);
+
+          //Task 3
+          // Declare a variable and assign your birth year
+          var birthYear =2002
+           // Display the message in the browser
+             document.write("My birth year is " + birthYear );
+             var data = "  ..Data type of my ddelared variable is number"
+            document.write(data)
+            
+
+    </script>
+</body>
+</html>
